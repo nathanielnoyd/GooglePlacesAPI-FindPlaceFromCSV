@@ -16,9 +16,9 @@ The final product is saved as "output.xlsx" in the same folder.
 
 1. Format your data. 
 
-By default, this script reads data from the first column and adds the place ID to the second column. If you have multiple columns (place name, city, country, etc.), you can concatenate the columns into a single string.
+   By default, this script reads data from the first column and adds the place ID to the second column. If you have multiple columns (place name, city, country, etc.), you can concatenate the columns into a single string.
 
-The first row is for the header and will be ignored.
+   The first row is for the header and will be ignored.
 
 2. Export your data as a CSV file. The script looks for "input.csv", but you can change that.
 
@@ -27,7 +27,7 @@ The first row is for the header and will be ignored.
 
 3. Set your Google Places API key. Place it within the quotation marks on the line that says "api_key =".
 
-If desired, change the input and output file names and locations (defaults are "input.csv" and "output.xlsx" in the current folder).
+   If desired, change the input and output file names and locations (defaults are "input.csv" and "output.xlsx" in the current folder).
 
 4. Run.
 
